@@ -1,2 +1,3 @@
 # ARM-Cortex-Multimeter
-Implementation of a DMM using ADC on the STM32F407 ARM Cortex Discovery Board
+Implementation of a DMM using ADC on the STM32F407 ARM Cortex Discovery Board:
+This is an implementation of a Digital Multimeter on an STM32F407 Discovery board, which uses a Cortex M4 Processor. The Code is split into different sections and libraries, with physical pushbuttons being used as inputs, and a 16x2 LED as the output. ADC is used for the actual processes. The DMM can measure voltage, current, and resistance, all via the ADC using physical circuitry. All the coding has been done in C++. It has to be noted that all of the programming done in this code is register level.
